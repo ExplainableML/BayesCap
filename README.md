@@ -56,5 +56,36 @@ We use the following resources to use as the base models (on top of which we tra
 - Medical Image Translation: [https://github.com/ExplainableML/UncerGuidedI2I](https://github.com/ExplainableML/UncerGuidedI2I) 
 - MonoDepth: [https://github.com/nianticlabs/monodepth2](https://github.com/nianticlabs/monodepth2)
 
+## BibTex
+
+Please cite the following works 
+
+```
+@inproceedings{Upa_bayescap,
+  title = {BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks},
+  author = {Upadhyay, U. and Kartik, S. and Chen, Y. and Mancini, M. and Akata, Z.},
+  booktitle = {European Conference on Computer Vision (ECCV 2022)},
+  year = {2022}
+}
+```
+
+```
+@inproceedings{upadhyay2021uncerguidedi2i,
+  title={Uncertainty Guided Progressive GANs for Medical Image Translation},
+  author={Upadhyay, Uddeshya and Chen, Yanbei and Hebb, Tobias and Gatidis, Sergios and Akata, Zeynep},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  year={2021},
+  organization={Springer}
+}
+```
+
+```
+@inproceedings{UpaCheAka21,
+  title = {Robustness via Uncertainty-aware Cycle Consistency},
+  author = {Upadhyay, U. and Chen, Y. and Akata, Z.},
+  booktitle = {Advances in Neural Information Processing Systems 34 (NeurIPS 2021)},
+  year = {2021}
+}
+```
 
 
