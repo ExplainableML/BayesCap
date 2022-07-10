@@ -1,0 +1,5 @@
+src/.ipynb_checkpoints
+src/*T1toT2*
+src/flagged
+src/__pycache__
+.ipynb_checkpoints
