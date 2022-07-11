@@ -1,5 +1,5 @@
 # BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks
-## [Arxiv paper]() || [Blog]() || [HuggingFace Gradio Demo]()
+## [Arxiv paper]() || [Blog](https://www.eml-unitue.de/) || [HuggingFace Gradio Demo](https://huggingface.co/spaces/udion/BayesCap)
 
 ## Introduction
 ![BayesCap teaser](./figs/BayesCap.gif)
