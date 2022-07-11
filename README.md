@@ -63,7 +63,7 @@ Please cite the following works
 ```
 @inproceedings{Upa_bayescap,
   title = {BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks},
-  author = {Upadhyay, U. and Kartik, S. and Chen, Y. and Mancini, M. and Akata, Z.},
+  author = {Upadhyay, U. and Karthik, S. and Chen, Y. and Mancini, M. and Akata, Z.},
   booktitle = {European Conference on Computer Vision (ECCV 2022)},
   year = {2022}
 }
