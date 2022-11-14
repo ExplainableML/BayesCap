@@ -111,11 +111,13 @@ class TempCombLoss(nn.Module):
 	
 	def forward(
 		self,
-		mean: Tensor, one_over_alpha: Tensor, beta: Tensor, target: Tensor,
+		mean: Tensor, one_over_alpha: Tensor, beta: Tensor, target1: Tensor, target2: Tensor,
 		T1: float, T2: float
 	):
-		l1 = self.L_l1(mean, target)
-		l2 = self.L_GenGauss(mean, one_over_alpha, beta, target)
+		##target1 is the base model output for identity mapping
+		##target2 is the ground truth for the GenGauss loss
+		l1 = self.L_l1(mean, target1)
+		l2 = self.L_GenGauss(mean, one_over_alpha, beta, target2)
 		l = T1*l1 + T2*l2
 
 		return l
