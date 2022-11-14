@@ -600,10 +600,7 @@ def train_BayesCap(
 				xSRC_mu, xSRC_alpha, xSRC_beta = NetC(xSR)
 				# print(xSRC_alpha) 
 				optimizer.zero_grad()
-				if task == 'depth':
-					loss = Cri(xSRC_mu, xSRC_alpha, xSRC_beta, xSR, T1=T1, T2=T2)
-				else:
-					loss = Cri(xSRC_mu, xSRC_alpha, xSRC_beta, xHR, T1=T1, T2=T2)
+				loss = Cri(xSRC_mu, xSRC_alpha, xSRC_beta, xSR, xHR, T1=T1,T2=T2)
 				# print(loss)
 				loss.backward()
 				optimizer.step()
